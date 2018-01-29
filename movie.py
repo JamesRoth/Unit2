@@ -2,7 +2,7 @@
 #1/29/18
 #movie.py - more if statements
 
-age=input(int("What is your age?: "))
+age=int(input("What is your age?: "))
 if age>16:
     print("You can watch R movies.")
 elif age>12:
