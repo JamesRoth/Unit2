@@ -23,5 +23,5 @@ elif color=="blue":
         print("North Korea will invade the US.")
     elif num==4:
         print("The patriots will lose the super bowl.")
-if (color !="red" or color !="blue" or num>4 or num<1):
+elif color !="red" and color !="blue" or num>4 or num<1:
     print("You cannot follow directions.")
