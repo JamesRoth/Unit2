@@ -7,13 +7,13 @@ if convert==1:
     km=float(input("Enter amount of KM: "))
     print(km, "kilometers is", round(km*0.621371, 1), "miles.")
 elif convert==2:
-    kg=float(input("Enter a number of kilograms: ")
+    kg=float(input("Enter a number of kilograms: "))
     print(kg, "kilograms is", kg*2.20462, "pounds.")
 elif convert==3:
-    liters=float(input("Enter a number of liters: ")
+    liters=float(input("Enter a number of liters: "))
     print(liters, "liters is", liters*0.264172, "gallons.")
 elif convert==4:
-    celsius=float(input("Enter a temp in celsius : ")
+    celsius=float(input("Enter a temp in celsius : "))
     print(celsius, "celsius is", celsius*(9/5)+32, "degress fahrenheight.")
 else:
     print("Error")
