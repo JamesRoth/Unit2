@@ -15,4 +15,5 @@ if choice==1:
         
 
 elif choice==2:
-    print("It's a tough climb. The tree is covered in vines and slippery, decomposing leaves. Eventually, after much effort and a few close calls, you get to the top. Apparently you climbed the tallest tree in the jungle, and you're affored an unspoiled view of the surrounding jungle. However, you see a storm coming in and its inevitable rain will make the already dangerous climb down even worse. However, you've had no time to get your bearings and figure out where to go, and leaving the tree now would make the whole trip worthless. How long do you stay up in the tree?
+    print("It's a tough climb. The tree is covered in vines and slippery, decomposing leaves. Eventually, after much effort and a few close calls, you get to the top. Apparently you climbed the tallest tree in the jungle, and you're affored an unspoiled view of the surrounding jungle. However, you see a storm coming in and its inevitable rain will make the already dangerous climb down even worse, and the storm is right on top of you. However, you've had no time to get your bearings and figure out where to go, and leaving the tree now would make the whole trip worthless. How long do you stay up in the tree?
+    choice=int(input("Before climing down, do you look around for 5 (1), 10(2), or 15(3) minutes? "))
