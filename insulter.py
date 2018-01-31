@@ -5,7 +5,7 @@
 from random import randint
 
 name=input("Enter your name: ")
-insult=int(randint(1,5))
+insult=int(randint(1,4))
 if insult==1:
     print("You have the brains of a fruitfly.")
 elif insult==2: 
@@ -16,4 +16,3 @@ elif insult==4:
     print("You're the definition of dissapointment.")
 else:
     print("Cats are smarter than you.")
-
