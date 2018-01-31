@@ -26,4 +26,11 @@ elif choice==2:
         
 
 else:
-    print("You step gingerly toward the damp, dark cave. Everything bad 
+    print("You step gingerly toward the damp, dark cave. Every bad story you've ever heard would imply that this is a very bad idea. But, your options are limited and, at the very least, the cave would be a good shelter for the night.")
+    choice=int(input("Do you enter the cave (1), or decide to play it safe and enter (2) ? "))
+    
+    if choice==1:
+        
+    else:
+        
+    
