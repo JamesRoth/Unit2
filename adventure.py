@@ -9,10 +9,6 @@ if choice==1:
     print("You follow the path for hours. It's hot, buggy, humid, and miserable, and the dense undergrowth eventually slows your progess to a mere crawl. ")
     choice=int(input("Do you keep folowing the path (1), or do you turn back and try to get back where you started? (2) "))
     if choice==1:
-        
-    
-    else:    
-        
 
 elif choice==2:
     print("It's a tough climb. The tree is covered in vines and slippery, decomposing leaves. Eventually, after much effort and a few close calls, you get to the top. Apparently you climbed the tallest tree in the jungle, and you're affored an unspoiled view of the surrounding land. However, you see a storm coming in and its inevitable rain will make the already dangerous climb down even worse, and the storm is almost on top of you. However, you've had no time to get your bearings and figure out where to go, and leaving the tree now would make the whole trip worthless. How long do you stay up in the tree?
