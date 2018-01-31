@@ -23,7 +23,8 @@ elif choice==2:
     elif choice==2:
         
     else:
-        print("You've made a mistake. The wind beats ont= you with surprising force, and the rain is coming down in torrents. Since the tree is so high, you're in the worst of the wind too. A climb down would be almost suicidal
+        print("You've made a mistake. The wind beats ont= you with surprising force, and the rain is coming down in torrents. Since the tree is so high, you're in the worst of the wind too. A climb down would be almost suicidal, but so would be staying in the tree.")
+        choice=int(input(" "))
 
 else:
     print("You step gingerly toward the damp, dark cave. Every bad story you've ever heard would imply that this is a very bad idea. But, your options are limited and, at the very least, the cave would be a good shelter for the night.")
