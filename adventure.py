@@ -39,7 +39,7 @@ else:
         choice=int(input("Do you touch the stuff (1), or leave it alone (2) ? "))
         
         if choice==1:
-            print("While pilfering the supplies, you hear rustling in the bushes. All of a sudden a man is behind you. ""Who are you, and what are you doing?"", he says.")
+            print("While pilfering the supplies, you hear rustling in the bushes. All of a sudden a man is behind you. Who are you, and what are you doing?, he says.")
             choice=int(input("You you lie (1), or tell the truth (2)?"))
             
             if choice==1:
