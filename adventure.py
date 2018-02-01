@@ -35,5 +35,8 @@ else:
     if choice==1:
         print(" ")
     else:
-        print("Upon stepping into the cave, you notice is dead ends quickly. However, in a corner lies a tarp and a box presumably conatining some supplies. Seems like another person had the same idea you did. It now appears that this person has only recently vacated the cave. Should your rifle through their stuff or leave it alone? A jungle dweller cannot be too sane.")
-        choice=int(input(" "))
+        print("Upon stepping into the cave, you notice is dead ends quickly. However, in a corner lies a tarp and a box presumably conatining some supplies. Seems like another person had the same idea you did. It now appears that this person has only recently vacated the cave, and the ashes of a fire are still warm. Should your rifle through their stuff or leave it alone?")
+        choice=int(input("Do you touch the stuff (1), or leave it alone (2) ? "))
+        
+        if choice==1:
+            print("While pilfering the supplies, you hear rustling in the
