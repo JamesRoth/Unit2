@@ -43,6 +43,6 @@ else:
             choice=int(input("You you lie (1), or tell the truth (2)?"))
             
             if choice==1:
-                print("You've lied and you know it, and apparently so does he. He grabs you by the neck, and in one swift, fluid motion, snaps your neck. Thats not something you can walk away from. You died.")
+                print("You've lied and you know it, and apparently so does he. He grabs you by the neck, and in one swift, fluid motion, snaps your neck. Thats NOT something one walks away from. You've died.")
             else:
                 print("Surprisingly, he doesn't want to kill you, and offers to pool some supplies. As long as you pull your weight, he allows you to stay with him. He's got a radio too, and apparently rescue teams are abound, so things are looking up. You win.")
