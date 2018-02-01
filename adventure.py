@@ -1,4 +1,4 @@
-#James Roth
+print("Hello, world.")#James Roth
 #1/31/18
 #adventure.py - nested conditional statements
 
@@ -30,10 +30,10 @@ elif choice==2:
 
 else:
     print("You step gingerly toward the damp, dark cave. Every bad story you've ever heard would imply that this is a very bad idea. But, your options are limited and, at the very least, the cave would be a good shelter for the night.")
-    choice=int(input("Do you enter the cave (1), or decide to play it safe and enter (2) ? "))
+    choice=int(input("Do you enter the cave (1), or decide to play it safe and leave it alone (2) ? "))
     
     if choice==1:
         print(" ")
     else:
-        print(" ")
-    
+        print("Upon stepping into the cave, you notice is dead ends quickly. However, in a corner lies a tarp and a box presumably conatining some supplies. Seems like another person had the same idea you did. It now appears that this person has only recently vacated the cave. Should your rifle through their stuff or leave it alone? A jungle dweller cannot be too sane.")
+        choice=int(input(" "))
