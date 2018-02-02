@@ -4,7 +4,7 @@
 
 from ggame import *
 
-color=int(input("Red (1), yellow (2), green (3), or blue (4) ?"))
+color=int(input("Red (1), yellow (2), green (3), or blue (4)?: "))
 if color==1:
     red=Color(0xff0000,1)
     line=LineStyle(3,red)
