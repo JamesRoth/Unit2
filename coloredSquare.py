@@ -22,9 +22,6 @@ else:
     line=LineStyle(3,blue)
     rectangle=RectangleAsset(100,100,line,blue)
 
-
 Sprite(rectangle)
 myApp=App()
 myApp.run()
-
-
