@@ -12,4 +12,4 @@ if date.today().month==month and date.today().day==day:
     print("Happy birthday!")
 if date.today().month<=month:
     if date.today().day<day:
-        print("You are", date.today().year
+        print("You are", date.today().year-(year+1), "years old".)
