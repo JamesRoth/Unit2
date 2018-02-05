@@ -12,6 +12,7 @@ if (x1-x2)!=0:
     slope=float(round((y1-y2)/(x1-x2), 3))
     print("The slope is", slope)
 else:
+    slope=0
     print("The slope is 0")
 
 b=float(y1-slope*x1)
