@@ -4,7 +4,7 @@
 
 name=input("Enter your lastname: ")
 
-if name>"N":
+if name<"N":
     print(name, "is in the first half of the alphabet")
 else:
     print(name, "is in the second half of the alphabet")
