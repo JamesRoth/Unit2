@@ -11,10 +11,10 @@ y2=float(input("What is the second y coordinate? "))
 if (x1-x2)!=0:
     slope=float(round((y1-y2)/(x1-x2), 3))
     print("The slope is", slope)
+    b=float(y1-slope*x1)
+    print("The equation of the line is y =",slope,"x +", b)
 else:
     slope=0
     print("The slope is 0")
-
-b=float(y1-slope*x1)
-print("The equation of the line is y =",slope,"x +", b)
-
+    b=float(y1-slope*x1)
+print("The equation of the line is y =", b)
