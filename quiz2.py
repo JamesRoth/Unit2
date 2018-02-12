@@ -28,3 +28,7 @@ if "p" not in word1 or "p" not in word2:
 num1=int(input("You will enter 2 numbers that add to 12. Enter the first one: "))
 num2=int(input("Enter the second one: "))
 
+if num1+num2==12:
+    print("correct")
+else: 
+    print("incorrect")
