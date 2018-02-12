@@ -5,7 +5,9 @@
 word1=input("Enter a word: ")
 word2=input("Enter a word: ")
 
-if len.(word1)>len.(word2):
+if len(word1)>len(word2):
     print(word1, "is longer than", word2)
-else:
+elif len(word1)<len(word2):
     print(word1, "is shorter than", word2)
+else:
+    print(word1, "and", word2, "are the same length")
