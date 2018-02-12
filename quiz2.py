@@ -11,3 +11,4 @@ elif len(word1)<len(word2):
     print(word1, "is shorter than", word2)
 else:
     print(word1, "and", word2, "are the same length")
+    
