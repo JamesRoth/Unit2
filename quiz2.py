@@ -22,5 +22,5 @@ if "p" in word1 or word2:
     elif "p" in word2:
         print("p is in", word2)
         
-elif "p" not in (word1 or word2):
+elif "p" not in word1 or "p" not in word2:
     print("p is not in", word1, "or", word2)
