@@ -13,11 +13,14 @@ else:
     print(word1, "and", word2, "are the same length")
 
 if "p" in word1 or word2:
-    if "p" in word1:
-        print("p is in", word1)
-    if "p" in word2:
-        print("p is in", word2)
-    if "p" (in word1 and word2):
+        if "p" in word1 and word2:
         print("p is in", word1, "and", word2)
-elif "p" not (in word1 or word2):
+    
+    elif "p" in word1:
+        print("p is in", word1)
+        
+    elif "p" in word2:
+        print("p is in", word2)
+        
+elif "p" not in (word1 or word2):
     print("p is not in", word1, "or", word2)
